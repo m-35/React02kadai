@@ -1,0 +1,31 @@
+.header-above{
+	height: 80px;
+	border-top: solid 1px #efefef;
+	border-bottom: solid 1px #efefef;
+}
+
+.header-inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	max-width: 240px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+}
+
+.nav-item{
+	margin:0 0 0 32px;
+}
+.nav-item>a{
+	display:  block;
+	font-size: 1.8rem;
+	line-height: 80px;
+	text-transform: uppercase;
+}
